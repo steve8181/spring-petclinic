@@ -52,7 +52,7 @@ class VetController {
 		// objects so it is simpler for JSon/Object mapping
 		Vets vets = new Vets();
 		vets.getVetList().addAll(this.vets.findAll());
-		return NoVets;
+		return vets;
 	}
 
 }
