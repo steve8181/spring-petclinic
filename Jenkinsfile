@@ -1,4 +1,5 @@
-def mvnHome
+node {
+   def mvnHome
 
    
 	
@@ -27,3 +28,6 @@ def mvnHome
 	
    }
 }
+   
+  
+  
