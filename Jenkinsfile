@@ -5,7 +5,7 @@ node {
 	
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
-      git 'https://github.com/steve8181/spring-petclinic.git'
+      git 'https://github.com/steve8181/spring-petclinic'
       // Get the Maven tool.
       // ** NOTE: This 'Maven3.6.3' Maven tool must be configured
       // **       in the global configuration.           
